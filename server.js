@@ -15,5 +15,4 @@ qr.toString(strData, {type:'terminal'}, (err, code) => {
   
 qr.toDataURL(strData, function (err, code) {
     if(err) return console.log("error occurred")
-	console.log(code)
 })
